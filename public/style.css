@@ -1,0 +1,68 @@
+/* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corps général */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-image: url('https://cdn.pixabay.com/photo/2020/04/24/02/15/sunrise-5084755_1280.jpg');
+  color: #333;
+}
+
+/* Barre de navigation */
+nav {
+  background-color: #007BFF;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Titres */
+h1 {
+  color: #007BFF;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+/* Paragraphe */
+p {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  line-height: 1.8;
+  text-align: center;
+}
+
+/* Liens de contact (si ajoutés dans contact.html) */
+a.contact-link {
+  color: #007BFF;
+  text-decoration: underline;
+}
+a.contact-link:hover {
+  color: #0056b3;
+}
